@@ -55,7 +55,7 @@
 
         function saveSignature() {
             const dataURL = canvas.toDataURL('image/png');
-            fetch('https://script.google.com/a/macros/sigmataxpro.com/s/AKfycbzdErERAH7fDQxDokweH-IKFDwv2N19mWLzT7D2VI8uX3dXgy2CVyUstdKNwfLJjC31/exec', {
+            fetch('https://script.google.com/a/macros/sigmataxpro.com/s/AKfycby8EJpeFUVST7Snnxz1pvXpmvTIk9EtN4Ih-SYie-H4dOjzUz-UIeXHhFK2x6qG901O/exec', {
                 method: 'POST',
                 body: JSON.stringify({ signature: dataURL }),
                 headers: {
